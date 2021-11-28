@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>太极图</title>
+	<style type="text/css" media="screen">
+		.yinyang{
+			width: 99px;
+			height: 200px;
+			border: 1px solid #000;
+			border-left-width: 100px;
+			border-radius: 100px;
+			position: relative;
+			cursor: pointer;
+
+		}
+		.yinyang:before{
+			content: "";
+			width: 20px;
+			height: 21px;
+			border:40px solid #000;
+			position: absolute;
+			left: -50px;
+			top: -1px;
+			border-radius: 50px;
+			background: #fff;
+
+			
+		}
+
+		.yinyang:after{
+			content: "";
+			width: 20px;
+			height: 20px;
+			border: 40px solid #fff;
+			position: absolute;
+			left: -51px;
+			top: 100px;
+			border-radius: 50px;
+			background: #000;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="yinyang">
+		
+	</div>
+</body>
+</html>
